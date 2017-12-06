@@ -1,0 +1,14 @@
+{
+  "name": "qiot-https-client",
+  "author": "Felix Galindo",
+  "version": "1.0.0",
+  "description": "QIOT Platform HTTPS Client Module",
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "repository": {
+    "type": "mercurial",
+    "url": ""
+  }
+}
