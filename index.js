@@ -71,8 +71,10 @@ Client.prototype.registerThing = function(label, type, value, callback) {
             try {
                 var data = JSON.parse(body);
                 if (data.status == "success") {
+                    console.log("Registration successful");
                     callback(null, data.thing.thing_token)
                 } else {
+                    console.log("Registration Failed");
                     callback("Failed to register", null);
                 }
             } catch (error) {
